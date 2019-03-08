@@ -1,0 +1,18 @@
+# Heap Implementation
+
+## Rationale
+
+I could not find a heap implementation with decrease/increase key.
+
+The few instances where increase/decrease key was found, it required the
+programmer to know the index of the object that you want to increase/
+decrease key for.
+
+This version just require you to know the object that you want to perform
+increase or decrease key on.
+
+## Implementation
+
+This is a binary min-heap with four operations: insert, peek, delete_min, and decrease_key.
+
+There are a few simple test included in the file.
