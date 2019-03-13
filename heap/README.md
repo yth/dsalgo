@@ -16,3 +16,7 @@ increase or decrease key on.
 This is a binary min-heap with four operations: insert, peek, delete_min, and decrease_key.
 
 There are a few simple test included in the file.
+
+## Usage
+
+The heap should be able to work with any objects that can be compared with each other and that can be hashed. If you intend to use the heap on an object type of your own design, you need to implement "__hash__", and "__lt__" (or another comparison magical method).
